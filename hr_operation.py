@@ -37,10 +37,10 @@ if industry:
     reduction_percent = ((total_hr - total_hr_after) / total_hr) * 100
 
     st.subheader("Results")
-    st.write(f"**HR needed: ** {total_hr} (Payroll: {round(payroll_hr)}, Recruitment: {round(recruitment_hr)})")
-    st.write(f"**Cost before automation: ** {cost_before:,.0f} THB/month")
+    st.write(f"**HR needed:** {total_hr} (Payroll: {round(payroll_hr)}, Recruitment: {round(recruitment_hr)})")
+    st.write(f"**Cost before automation:** {cost_before:,.0f} THB/month")
     st.write("---")
-    st.write(f"**HR after automation: ** {total_hr_after} (Payroll: {payroll_after}, Recruitment: {recruitment_after})")
-    st.write(f"**Cost after automation: ** {cost_after:,.0f} THB/month")
-    st.write(f"**Cost saved: ** {cost_saving:,.0f} THB/month")
-    st.write(f"**HR reduced: ** {reduction_percent:.1f}%")
+    st.write(f"**HR after automation:** {total_hr_after} (Payroll: {payroll_after}, Recruitment: {recruitment_after})")
+    st.write(f"**Cost after automation:** {cost_after:,.0f} THB/month")
+    st.write(f"**Cost saved:** {cost_saving:,.0f} THB/month")
+    st.write(f"**HR reduced:** {reduction_percent:.1f}%")

@@ -1,10 +1,9 @@
-# hr_cost_calculator.py
 import streamlit as st
 
-st.title("HR Cost Reduction Calculator")
+st.title("HR Operation")
 
-total_emp = st.number_input("Total employees", min_value=1, value=100)
-avg_hr_salary = st.number_input("Average HR salary (THB/month)", min_value=1, value=30000)
+total_emp = st.number_input("Total employees", min_value=1, value=500)
+avg_hr_salary = st.number_input("Average HR salary (THB/month)", min_value=1, value=35000)
 industry = st.selectbox("Industry", ['general', 'manufacturing', 'it', 'service'])
 
 emp_per_hr = {

@@ -47,9 +47,8 @@ st.write(f"**HR needed:** {total_hr}")
 st.write(f"**Cost before automation:** {cost_before:,.0f} THB/month")
 st.write("---")
 st.write(f"**HR after automation:** {total_hr_after}")
-st.write(f"**Cost after automation:** {cost_after:,.0f} THB/month")
-st.write(f"**Cost saved:** {cost_saving:,.0f} THB/month")
 st.write(f"**HR reduced:** {reduction_percent:.1f}%")
+st.write(f"**Cost after automation:** {cost_after:,.0f} THB/month")
 
 # Metric summary
 st.metric(label="Cost Saved", value=f"{cost_saving:,.0f} THB/month")
